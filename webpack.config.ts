@@ -12,7 +12,6 @@ const webpackConfig: webpack.Configuration = {
   entry: {
     "background-script": path.join(__dirname, "src/background_script/index.ts"),
     "content-script": path.join(__dirname, "src/content_script/index.ts"),
-    options: path.join(__dirname, "src/options/index.tsx"),
   },
   module: {
     rules: [
